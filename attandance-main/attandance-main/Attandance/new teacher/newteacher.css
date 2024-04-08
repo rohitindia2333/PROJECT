@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    height: 437px;
+    width: 508px;
+    top: 70px;
+    left: 390px;
+    background: #4C9AFF;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+input[type=text]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 140px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+input[type=text]:focus{
+    border-color: #0065FF;
+    box-shadow: 0 0 8px 0 #0065FF;
+}
+
+input[type=email]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 20px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+input[type=email]:focus{
+    border-color: #0065FF;
+    box-shadow: 0 0 8px 0 #0065FF;
+}
+
+.login{
+    position: absolute;
+    width: 90px;
+    height: 38px;
+    right: 70px;
+    top: 257px;
+    background: #0747A6;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px;
+    color: #ffffff;
+}
+a:hover{
+    width: 90px;
+    height: 38px;
+    color: #0747A6;
+    background: #ffffff;
+    border: 1px solid #0747A6;
+    border-radius: 32px;
+    transform: ease 0.3 sec;
+}
+
+.newheading{
+    position: absolute;
+    width: 311px;
+    height: 20px;
+    font-family: 'Arima Madurai';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0065FF;
+    top: 20px;
+    left: 8px;
+}
+
+.newbox-1{
+    position: absolute;
+    width: 459px;
+    height: 391px;
+    left: 21px;
+    top: 30px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.newinput  input[type=text]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 70px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.newinput input[type=password]{
+width: 90%;
+border: 2px solid ;
+border-radius: 4px;
+margin-top: 20px;
+outline: none;
+padding: 8px;
+margin-left: 10px;
+}
+
+.newinput input[type=file]{
+width: 90%;
+border: 2px solid ;
+border-radius: 4px;
+margin-top: 20px;
+outline: none;
+padding: 8px;
+margin-left: 10px;
+}
+
+input[type=password]:focus{
+border-color: #0065FF;
+box-shadow: 0 0 8px 0 #0065FF;
+}
+
+input[type=number]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 20px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+input[type=number]:focus{
+    border-color: #0065FF;
+    box-shadow: 0 0 8px 0 #0065FF;
+}
+
+input[type=file]:focus{
+border-color: #0065FF;
+box-shadow: 0 0 8px 0 #0065FF;
+}
+
+.newlogin{
+    position: absolute;
+    width: 90px;
+    height: 38px;
+    right: 40px;
+    top: 340px;
+    background: #0747A6;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px;
+    color: #ffffff;
+}
+a:hover{
+    width: 90px;
+    height: 38px;
+    color: #0747A6;
+    background: #ffffff;
+    border: 1px solid #0747A6;
+    border-radius: 32px;
+    transform: ease 0.3 sec;
+}
